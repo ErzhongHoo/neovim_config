@@ -150,6 +150,11 @@ call plug#begin('~/.config/nvim/plugged')
 
 "vim-arduino
 Plug 'stevearc/vim-arduino'
+nnoremap <buffer> <leader>av :ArduinoVerify<CR>
+nnoremap <buffer> <leader>au :ArduinoUpload<CR>
+nnoremap <buffer> <leader>as :ArduinoUploadAndSerial<CR>
+nnoremap <buffer> <leader>ab :ArduinoChooseBoard<CR>
+nnoremap <buffer> <leader>ap :ArduinoChooseProgrammer<CR>
 
 "vim-markdown-preview
 Plug 'iamcco/markdown-preview.vim'
