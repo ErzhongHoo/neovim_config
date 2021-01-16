@@ -148,6 +148,9 @@ endif
 "############################vim-plug管理的插件################################
 call plug#begin('~/.config/nvim/plugged')
 
+"vim-arduino
+Plug 'stevearc/vim-arduino'
+
 "vim-markdown-preview
 Plug 'iamcco/markdown-preview.vim'
 Plug 'iamcco/mathjax-support-for-mkdp'
