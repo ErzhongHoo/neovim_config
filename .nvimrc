@@ -245,6 +245,14 @@ Plug 'gcmt/wildfire.vim'
 "fcitx.vim(<ESC>退出自动切换英文输入法,进入inser mode自动切换中文输入法)
 Plug 'lilydjwg/fcitx.vim'
 
+"vim-text
+Plug 'lervag/vimtex'
+let g:tex_flavor='latex'
+let g:vimtex_view_method='zathura'
+let g:vimtex_quickfix_mode=0
+set conceallevel=1
+let g:tex_conceal='abdmg'
+
 call plug#end()
 
 "#####################vim-plug插件部署完成#########################
