@@ -162,7 +162,7 @@ Plug 'iamcco/mathjax-support-for-mkdp'
 "设置浏览markdown的工具
 let g:mkdp_path_to_chrome = "/usr/bin/chromium"
 "<F8>键触发预览
-nmap <silent> <F8> <Plug>MarkdownPreview      
+nmap <silent> <F8> <Plug>MarkdownPreview
 "让所有文件都可以用markdownpreview预览
 let g:mkdp_command_for_global = 1
 
