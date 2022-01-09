@@ -118,7 +118,7 @@ autocmd Filetype markdown inoremap ￥￥ $
 
 
 "按<F5>保存文件，并执行所识别出来的文件类型
-map <F5> :call CompileRunGcc()<CR>
+map <F6> :call CompileRunGcc()<CR>
     func! CompileRunGcc()
         exec "w"
 if &filetype == 'c'
