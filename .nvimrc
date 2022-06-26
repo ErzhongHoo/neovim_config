@@ -49,7 +49,10 @@ set wrap
 set backspace=2
 
 "设置<tab>为四个空格
-set ts=4
+set tabstop=4
+set softtabstop=4
+"设置缩进空格默认4
+set shiftwidth=4
 
 "把<tab>改成空格(按照上面的改成4个空格(符合python需要))
 set expandtab
@@ -57,7 +60,7 @@ set expandtab
 "文件类型自动缩进
 filetype indent on
 
-"自动缩进
+"自动缩进(每行缩进与上一行相等)
 set autoindent
 
 "ESC快捷键为jk
